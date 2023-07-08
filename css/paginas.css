@@ -1,0 +1,71 @@
+@font-face {
+        font-family: Nueva;
+        src: url(../fonts/Dosis-SemiBold.ttf);
+    }
+@font-face {
+        font-family: Nueva1;
+        src: url(../fonts/Dosis-ExtraLight.ttf);
+    }
+#contenedor p{
+    color: black;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 23px ;
+    font-family: Nueva1;
+}
+#contenedor h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: Nueva;
+}
+#contenedor .container {
+    display: flex;
+    max-width: 100vw;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+#contenedor .container .img2 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+}
+#contenedor .container .img1 {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+}
+#contenedor .container .img0 {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+}
+#contenedor .container .img4 {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+}
+#contenedor .container .img01 {
+    width: 300px;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    padding: 6px;
+}
+#contenedor .video{
+    width: 800px;
+    height: 600px;
+}
